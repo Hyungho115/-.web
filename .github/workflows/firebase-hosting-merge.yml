@@ -12,7 +12,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14' # 사용하고 있는 Node.js 버전으로 설정
+          node-version: '20' # 사용하고 있는 Node.js 버전으로 설정
       - run: npm install
       - run: npm run build
 =======
